@@ -9,4 +9,5 @@ void Delay_us(uint32_t us);
 
 void Delay_ms(uint32_t ms);
 
+uint16_t HCSR04(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin_Trig,uint16_t GPIO_Pin_Echo);
 #endif
